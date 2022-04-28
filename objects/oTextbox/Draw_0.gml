@@ -1,12 +1,12 @@
 accept_key = keyboard_check_pressed(vk_space);
 
-textbox_x = camera_get_view_x(view_camera[0]);
-textbox_y = camera_get_view_y(view_camera[0]);
+textbox_x = camera_get_view_x(view_camera[0]) + 25;
+textbox_y = camera_get_view_y(view_camera[0]) + 35;
 
 // Setup
 if(setup == false) {
 	setup = true;
-	draw_set_font(Font2);
+	draw_set_font(global.font_main);
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
 	
@@ -53,4 +53,4 @@ draw_sprite_ext(txtb_spr, txtb_img, textbox_x + text_x_offset[page], textbox_y, 
 
 // draw the text
 var _drawtext = string_copy(text[page], 1, draw_char);
-draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + border, _drawtext, line_sep, line_width);
+draw_text_ext(textbox_x + text_x_offset[page] + border + 900, textbox_y + border + 200, _drawtext, line_sep, line_width);

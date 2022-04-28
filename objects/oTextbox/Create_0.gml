@@ -1,10 +1,11 @@
 depth = -999;
+global.font_main = fTahoma24;
 
 // textbox parameters
 textbox_width = 921
 textbox_height = 473
 border = 8;
-line_sep = 12;
+line_sep = 28;
 line_width = textbox_width - border * 2;
 txtb_spr = sTextBox;
 txtb_img = 0;
@@ -15,7 +16,7 @@ page = 0;
 page_number = 0;
 text[0] = "Hola1";
 text[1] = "Hola22";
-text[2] = "PRUEbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+text[2] = "PRUEbaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa ggggg ggggggggggggggggggg ggggggg";
 text_length[0] = string_length(text[0]);
 draw_char = 0;
 text_spd = 1;

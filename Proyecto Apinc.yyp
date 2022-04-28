@@ -49,7 +49,6 @@
     {"id":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"order":3,},
     {"id":{"name":"sDesertBackground","path":"sprites/sDesertBackground/sDesertBackground.yy",},"order":13,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":2,},
-    {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},"order":6,},
     {"id":{"name":"rGrass","path":"rooms/rGrass/rGrass.yy",},"order":0,},
     {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},"order":14,},
     {"id":{"name":"rSand","path":"rooms/rSand/rSand.yy",},"order":0,},
