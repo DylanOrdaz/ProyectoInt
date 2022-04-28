@@ -9,29 +9,67 @@ function scrGameText(_text_id){
 	gameText[8] = "";
 	gameText[9] = "";
 	gameText[10] = "";
+	
 	switch(_text_id) {
 		case 1:
 			scr_text(gameText[1]);
-				scr_option("988", "1-c");
-				scr_option("765", "1-i");
+			scr_option("988", "_1-c");
+			scr_option("765", "_1-i");
 			break;
-			case "1-c":
-				scr_text("¡Correcto!");
-				break;
-			case "1-i":
-				scr_text("¡Incorrecto!");
-				break;
+		case "_1-c":
+			scr_text("¡Correcto!");
+			break;
+		case "_1-i":
+			scr_text("¡Incorrecto!");
+			break
+			
 		case 2:
 			scr_text(gameText[2]);
+			scr_option("100", "_2-c");
+			scr_option("125", "_2-i");
 			break;
+		case "_2-c":
+			scr_text("¡Correcto!");
+			break;
+		case "_2-i":
+			scr_text("¡Incorrecto!");
+			break;
+			
 		case 3:
 			scr_text(gameText[3]);
+			scr_option("905", "_3-i");
+			scr_option("866", "_3-c");
 			break;
+		case "_3-c":
+			scr_text("¡Correcto!");
+			break;
+		case "_3-i":
+			scr_text("¡Incorrecto!");
+			break;
+			
 		case 4:
 			scr_text(gameText[4]);
+			scr_option("900", "_4-i");
+			scr_option("60", "_4-c");
 			break;
+		case "_4-c":
+			scr_text("¡Correcto!");
+			break;
+		case "_4-i":
+			scr_text("¡Incorrecto!");
+			break;
+			
+			
 		case 5:
 			scr_text(gameText[5]);
+			scr_option("49", "_5-i");
+			scr_option("30", "_5-c");
+			break;
+		case "_5-c":
+			scr_text("¡Correcto!");
+			break;
+		case "_5-i":
+			scr_text("¡Incorrecto!");
 			break;
 		case 6:
 			scr_text(gameText[6]);

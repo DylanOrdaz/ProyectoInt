@@ -96,9 +96,12 @@ function scrProcessPlayer() {
 		// check the points at the bottom of the sprite
 	    c1 = tilemap_get_at_pixel(oGame.map,x-(sprite_get_width(sprite_index)/2),y-1);				// left
 	    c3 = tilemap_get_at_pixel(oGame.map,x,y-1);													// center
-	    if( y&$3f>0 ) c2=tilemap_get_at_pixel(oGame.map,x-(sprite_get_width(sprite_index)/2),y+1);	// left below (only check if there is a tile below)
+	    if( y&$3f>0 ) c2=tilemap_get_at_pixel(oGame.map,x-(sprite_get_width(sprite_index)/2),y+1);
+		// left below (only check if there is a tile below)
+		
 	    if(c3 == 4) {
-			scrTextboxFunctions(create_textbox());
+			//show_debug_message("hola");
+			scrTextboxFunctions(create_textbox(randomText));
 		}
 		if(c1 == 3) || (c2 == 3){																	// if we are intersecting with a box
 			x = real(x&$ffffffc0)+(sprite_get_width(sprite_index)/2);								// stop the player from moving
