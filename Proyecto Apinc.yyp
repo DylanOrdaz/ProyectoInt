@@ -48,6 +48,7 @@
     {"id":{"name":"oStar","path":"objects/oStar/oStar.yy",},"order":1,},
     {"id":{"name":"oHeart","path":"objects/oHeart/oHeart.yy",},"order":2,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":1,},
+    {"id":{"name":"spr_textbox_arrow","path":"sprites/spr_textbox_arrow/spr_textbox_arrow.yy",},"order":8,},
     {"id":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"order":3,},
     {"id":{"name":"sDesertBackground","path":"sprites/sDesertBackground/sDesertBackground.yy",},"order":13,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":2,},

@@ -12,7 +12,15 @@ function scrGameText(_text_id){
 	switch(_text_id) {
 		case 1:
 			scr_text(gameText[1]);
+				scr_option("988", "1-c");
+				scr_option("765", "1-i");
 			break;
+			case "1-c":
+				scr_text("¡Correcto!");
+				break;
+			case "1-i":
+				scr_text("¡Incorrecto!");
+				break;
 		case 2:
 			scr_text(gameText[2]);
 			break;
