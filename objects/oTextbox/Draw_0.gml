@@ -53,4 +53,7 @@ draw_sprite_ext(txtb_spr, txtb_img, textbox_x + text_x_offset[page], textbox_y, 
 
 // draw the text
 var _drawtext = string_copy(text[page], 1, draw_char);
-draw_text_ext(textbox_x + text_x_offset[page] + border + 900, textbox_y + border + 200, _drawtext, line_sep, line_width);
+draw_set_valign(fa_top);
+draw_set_halign(fa_left);
+draw_set_color(c_black);
+draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + border, _drawtext, line_sep, line_width);
