@@ -87,4 +87,4 @@ var _drawtext = string_copy(text[page], 1, draw_char);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 draw_set_color(c_black);
-draw_text_ext(textbox_x + _txtb_x + border, _txtb_y + border, _drawtext, line_sep, line_width);
+draw_text_ext(_txtb_x + border, _txtb_y + border, _drawtext, line_sep, line_width);
