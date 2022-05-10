@@ -27,6 +27,7 @@
     {"id":{"name":"sFall","path":"sprites/sFall/sFall.yy",},"order":5,},
     {"id":{"name":"sJumpFall","path":"sprites/sJumpFall/sJumpFall.yy",},"order":6,},
     {"id":{"name":"sGhost","path":"sprites/sGhost/sGhost.yy",},"order":0,},
+    {"id":{"name":"rSand2","path":"rooms/rSand2/rSand2.yy",},"order":1,},
     {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"order":5,},
     {"id":{"name":"sGhostShadow","path":"sprites/sGhostShadow/sGhostShadow.yy",},"order":1,},
     {"id":{"name":"sCollisions","path":"sprites/sCollisions/sCollisions.yy",},"order":0,},
@@ -52,7 +53,7 @@
     {"id":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"order":3,},
     {"id":{"name":"sDesertBackground","path":"sprites/sDesertBackground/sDesertBackground.yy",},"order":13,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":2,},
-    {"id":{"name":"rGrass","path":"rooms/rGrass/rGrass.yy",},"order":0,},
+    {"id":{"name":"rGrass","path":"rooms/rGrass/rGrass.yy",},"order":2,},
     {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},"order":14,},
     {"id":{"name":"rSand","path":"rooms/rSand/rSand.yy",},"order":0,},
   ],
@@ -84,6 +85,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rSand","path":"rooms/rSand/rSand.yy",},},
     {"roomId":{"name":"rGrass","path":"rooms/rGrass/rGrass.yy",},},
+    {"roomId":{"name":"rSand2","path":"rooms/rSand2/rSand2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -103,7 +105,6 @@
     {"folderPath":"folders/Objects.yy","order":10,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Pickups.yy","order":0,"resourceVersion":"1.0","name":"Pickups","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms.yy","order":11,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Rooms/rGrass.yy","order":1,"resourceVersion":"1.0","name":"rGrass","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":12,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":13,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Animation Curves.yy","order":1,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
@@ -117,7 +118,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "Proyecto Apinc",

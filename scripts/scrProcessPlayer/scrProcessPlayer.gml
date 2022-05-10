@@ -101,6 +101,7 @@ function scrProcessPlayer() {
 		
 	    if(c3 == 4) {
 			//show_debug_message("hola");
+			randomText = irandom_range(1, 5);
 			scrTextboxFunctions(create_textbox(randomText));
 		}
 		if(c1 == 3) || (c2 == 3){																	// if we are intersecting with a box
