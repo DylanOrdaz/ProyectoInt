@@ -43,6 +43,7 @@
     {"id":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},"order":7,},
     {"id":{"name":"scrProcessPlayer","path":"scripts/scrProcessPlayer/scrProcessPlayer.yy",},"order":1,},
     {"id":{"name":"scrCheckPress","path":"scripts/scrCheckPress/scrCheckPress.yy",},"order":2,},
+    {"id":{"name":"sQuestion","path":"sprites/sQuestion/sQuestion.yy",},"order":9,},
     {"id":{"name":"fTahoma24","path":"fonts/fTahoma24/fTahoma24.yy",},"order":0,},
     {"id":{"name":"sIdle25","path":"sprites/sIdle25/sIdle25.yy",},"order":0,},
     {"id":{"name":"oPickupParent","path":"objects/oPickupParent/oPickupParent.yy",},"order":0,},

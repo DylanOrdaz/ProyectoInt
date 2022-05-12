@@ -4,8 +4,8 @@ function scrGameText(_text_id){
 	gameText[3] = "Un tanque para almacenamiento de agua tiene una capacidad de  1000 litros.  Si en un comienzo estaba lleno y luego se le sacan 134 litros, ¿cuánta agua queda en el tanque?";
 	gameText[4] = "Ana tiene 5 cajas de huevos. Cada caja tiene 12 huevos. ¿Cuántos huevos tiene en total?";
 	gameText[5] = "Para comprar el regalo de su padre, Juan ha puesto 10 pesos y Patricia ha puesto 3 veces más dinero que él. ¿Cuánto dinero ha puesto Patricia?";
-	gameText[6] = "";
-	gameText[7] = "";
+	gameText[6] = "En la estantería del salón de mi casa hay 120 libros en total colocados en 6 estantes. Sabiendo que cada estantería tiene el mismo número de libros, calcula cuántos libros hay en cada estantería.";
+	gameText[7] = "Pablo es conductor de autobús. Me ha dicho que en cada viaje hace 240 kilómetros y que viaja a una velocidad media de 80 kilómetros por hora. ¿Cuánto tiempo tarda en hacer su recorrido?";
 	gameText[8] = "";
 	gameText[9] = "";
 	gameText[10] = "";
@@ -20,7 +20,7 @@ function scrGameText(_text_id){
 			scr_text("¡Correcto!");
 			break;
 		case "_1-i":
-			scr_text("¡Incorrecto!");
+			scr_text("¡Incorrecto! Piensa en las cantidades. Si Laura tiene 4 pedidos, y conoces cuántos productos contiene cada pedido, ¿qué operación crees que te serviría para conocer cuántos productos son en total?");
 			break
 			
 		case 2:
@@ -32,7 +32,7 @@ function scrGameText(_text_id){
 			scr_text("¡Correcto!");
 			break;
 		case "_2-i":
-			scr_text("¡Incorrecto!");
+			scr_text("¡Incorrecto! Sabemos cuántos juguetes recaudó cada quién, si quisiéramos saber cuántos recaudaron los 3 juntos, ¿qué operación crees que se deba realizar?");
 			break;
 			
 		case 3:
@@ -44,7 +44,7 @@ function scrGameText(_text_id){
 			scr_text("¡Correcto!");
 			break;
 		case "_3-i":
-			scr_text("¡Incorrecto!");
+			scr_text("¡Incorrecto! Al inicio el tanque tenía 1000 litros, y le sacaron 134. Si lo que quieres es saber cuánto queda de agua, ¿qué operación crees que debes realizar?");
 			break;
 			
 		case 4:
@@ -56,10 +56,8 @@ function scrGameText(_text_id){
 			scr_text("¡Correcto!");
 			break;
 		case "_4-i":
-			scr_text("¡Incorrecto!");
+			scr_text("¡Incorrecto! La operación que necesitas realizar te ayudará a saber cuántos huevos hay en total, dado que conoces cuántas cajas hay.");
 			break;
-			
-			
 		case 5:
 			scr_text(gameText[5]);
 			scr_option("49", "_5-i");
@@ -69,13 +67,29 @@ function scrGameText(_text_id){
 			scr_text("¡Correcto!");
 			break;
 		case "_5-i":
-			scr_text("¡Incorrecto!");
+			scr_text("¡Incorrecto! Si sabemos que Juan puso 10 pesos, y Patricia puso 3 veces esa cantidad, ¿qué operación te serviría para saber cuánto dinero puso Patricia?");
 			break;
 		case 6:
 			scr_text(gameText[6]);
+			scr_option("21", "_6-i");
+			scr_option("20", "_6-c");
+			break;
+		case "_6-c":
+			scr_text("¡Correcto!");
+			break;
+		case "_6-i":
+			scr_text("¡Incorrecto! Aquí hay una pista: tenemos 120 libros, y 6 estanterías donde acomodarlos, ¿qué operación te ayudaría a saber cuántos libros irían repartidos en cada una?");
 			break;
 		case 7:
 			scr_text(gameText[7]);
+			scr_option("4", "_7-i");
+			scr_option("3", "_7-c");
+			break;
+		case "_7-c":
+			scr_text("¡Correcto!");
+			break;
+		case "_7-i":
+			scr_text("¡Incorrecto! Si sabemos que Juan puso 10 pesos, y Patricia puso 3 veces esa cantidad, ¿qué operación te serviría para saber cuánto dinero puso Patricia?");
 			break;
 		case 8:
 			scr_text(gameText[8]);

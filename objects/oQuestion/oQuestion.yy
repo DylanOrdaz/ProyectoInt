@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTextBox",
-    "path": "sprites/sTextBox/sTextBox.yy",
+    "name": "sQuestion",
+    "path": "sprites/sQuestion/sQuestion.yy",
   },
   "solid": false,
   "visible": true,
