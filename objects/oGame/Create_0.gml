@@ -4,10 +4,12 @@ map = layer_tilemap_get_id("Collisions");								// this will be the layer we us
 hills = layer_get_all_elements("Hills");								// all the hill sprites
 stars = layer_get_all_elements("Stars");								// all the star sprites
 clouds = layer_get_all_elements("Clouds");								// all the cloud sprites
+global.stars = 0;														// stars collected
+global.playerHealth = 3;												// heath of the player
 
 // change the sprites to sand alternatives
 switch(room){
-	case rSand:															// if we are in the sand room
+	case rSand2:															// if we are in the sand room
 		for(i=0;i<array_length_1d(hills);i++){							// loop through all the hill sprites
 			if(layer_sprite_get_sprite(hills[i]) == sBGHills_grass){	// if the sprite is a default grass one
 				layer_sprite_change(hills[i],sBGHills_sand);			// set it to the default sand one

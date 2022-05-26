@@ -5,7 +5,6 @@ g = 0.2;					// gravity that applies to the player
 sprite_index = sIdle25;		// animation to play
 anim_speed = 0.7;			// default speed of the animation
 image_speed = anim_speed;	// animation speed
-health = 3;					// heath of the player
 can_climb = false;			// flag if the player can climb
 climbing = false;			// flag if the player is climbing
 xspeed = 6;					// horizontal speed of the player
@@ -16,8 +15,7 @@ gravmax=12;					// terminal velocity when falling
 gravdelta=1.2;				// difference in gravity
 grav_jump = -18;			// jump gravity
 jump=false;					// flag if the player is jumping
-randomise()
-randomText = irandom_range(1,5);
+
 
 
 // camera that follows the player

@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 510,
+  "bbox_right": 511,
   "bbox_top": 0,
-  "bbox_bottom": 638,
+  "bbox_bottom": 640,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4882b6e2-1662-4db9-aa28-a35a14102755","path":"sprites/sDeserTiles/sDeserTiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4882b6e2-1662-4db9-aa28-a35a14102755","path":"sprites/sDeserTiles/sDeserTiles.yy",},"LayerId":{"name":"0b639b0d-72d7-42b9-8325-d5908067eb15","path":"sprites/sDeserTiles/sDeserTiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sDeserTiles","path":"sprites/sDeserTiles/sDeserTiles.yy",},"resourceVersion":"1.0","name":"4882b6e2-1662-4db9-aa28-a35a14102755","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"06fda4d9-f921-421a-bcb9-8e334b7c8913","path":"sprites/sDeserTiles/sDeserTiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"06fda4d9-f921-421a-bcb9-8e334b7c8913","path":"sprites/sDeserTiles/sDeserTiles.yy",},"LayerId":{"name":"866227fd-6d09-41a2-8111-8f2a56123d26","path":"sprites/sDeserTiles/sDeserTiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sDeserTiles","path":"sprites/sDeserTiles/sDeserTiles.yy",},"resourceVersion":"1.0","name":"06fda4d9-f921-421a-bcb9-8e334b7c8913","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sDeserTiles","path":"sprites/sDeserTiles/sDeserTiles.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"40a8a586-4848-4540-b192-ba4a46c4593e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4882b6e2-1662-4db9-aa28-a35a14102755","path":"sprites/sDeserTiles/sDeserTiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f44b7bbb-0a23-4284-ab41-7a475d88dc99","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06fda4d9-f921-421a-bcb9-8e334b7c8913","path":"sprites/sDeserTiles/sDeserTiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0b639b0d-72d7-42b9-8325-d5908067eb15","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"866227fd-6d09-41a2-8111-8f2a56123d26","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

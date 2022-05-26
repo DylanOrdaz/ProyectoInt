@@ -1,5 +1,12 @@
 function scrProcessPlayer() {
 	var xx,yy,c1,c2,c3,c4;
+	
+	if(room == rGenieBattle1 && room != rGenieBattle2) {
+		if(room != rGenieBattle1 && room != rGenieBattle2) {
+		}
+		xspeed = 0;
+		yspeed = 0;
+	}
 
 	// Apply gravity (and jumping)
 	y = y+grav;
@@ -13,7 +20,8 @@ function scrProcessPlayer() {
 	if(!jump){									// if we are already jumping dont do anything
 		if((keyboard_check(vk_space)) || (gamepad_button_check(0,gp_face1))){
 			grav=grav_jump;						// make the player jump
-			jump=true;							// flag that we are jumping	
+			jump=true;							// flag that we are jumping
+			audio_play_sound(snd_jump, 10, false);
 		}
 	}
 
@@ -99,11 +107,11 @@ function scrProcessPlayer() {
 	    if( y&$3f>0 ) c2=tilemap_get_at_pixel(oGame.map,x-(sprite_get_width(sprite_index)/2),y+1);
 		// left below (only check if there is a tile below)
 		
-	    if(c3 == 4) {
+	    /*if(c3 == 4) {
 			//show_debug_message("hola");
 			randomText = irandom_range(1, 5);
 			scrTextboxFunctions(create_textbox(randomText));
-		}
+		}*/
 		if(c1 == 3) || (c2 == 3){																	// if we are intersecting with a box
 			x = real(x&$ffffffc0)+(sprite_get_width(sprite_index)/2);								// stop the player from moving
 	    }
