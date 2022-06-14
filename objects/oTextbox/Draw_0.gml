@@ -49,7 +49,7 @@ if accept_key {
 	
 // draw the textbox
 var _txtb_x = textbox_x + text_x_offset[page];
-var _txtb_y = textbox_y;
+var _txtb_y = textbox_y + 50;
 txtb_img += txtb_img_spd;
 txtb_spr_w = sprite_get_width(txtb_spr);
 txtb_spr_h = sprite_get_height(txtb_spr);
@@ -72,17 +72,17 @@ if draw_char == text_length[page] && page == page_number -1 {
 		
 		//opciones del textbox
 		var _o_w = string_width(option[op]) + _op_bord*2;
-		draw_sprite_ext(txtb_spr, txtb_img, _txtb_x + 60, _txtb_y + _op_space * option_number + (_op_space - 59) * op, _o_w/txtb_spr_w, (_op_space - 60) / txtb_spr_h, 0, c_white, 1);
+		draw_sprite_ext(txtb_spr, txtb_img, _txtb_x + 60, _txtb_y + _op_space * 2 + (_op_space - 59) * op, _o_w/txtb_spr_w, (_op_space - 60) / txtb_spr_h, 0, c_white, 1);
 	
 		if option_pos == op {
-			draw_sprite(spr_textbox_arrow, 0, _txtb_x + 20, _txtb_y + _op_space * option_number + (_op_space - 119) * option_number + (_op_space - 59) * op);
+			draw_sprite(spr_textbox_arrow, 0, _txtb_x + 20, _txtb_y + _op_space * 2 + (_op_space - 119) * option_number + (_op_space - 59) * op);
 		}
 		
 		//opciones del texto dentro del textbox
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
 		draw_set_color(c_black);
-		draw_text(_txtb_x + _op_bord - 13, _txtb_y + (_op_space + 6) * option_number + (_op_space - 59) * op + 2, option[op]);
+		draw_text(_txtb_x + _op_bord - 13, _txtb_y + (_op_space + 10) * 2 + (_op_space - 59) * op + 2, option[op]);
 	}
 }
 

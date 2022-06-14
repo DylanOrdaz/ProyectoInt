@@ -1,34 +1,14 @@
 /// Init
 tilesize = 64;															// size of tiles
-map = layer_tilemap_get_id("Collisions");								// this will be the layer we use for collisions
-hills = layer_get_all_elements("Hills");								// all the hill sprites
+map = layer_tilemap_get_id("Collisions");								// this will be the layer we use for collisions								// all the hill sprites
 stars = layer_get_all_elements("Stars");								// all the star sprites
 clouds = layer_get_all_elements("Clouds");								// all the cloud sprites
 global.stars = 0;														// stars collected
-global.playerHealth = 3;												// heath of the player
-
-// change the sprites to sand alternatives
-switch(room){
-	case rSand2:															// if we are in the sand room
-		for(i=0;i<array_length_1d(hills);i++){							// loop through all the hill sprites
-			if(layer_sprite_get_sprite(hills[i]) == sBGHills_grass){	// if the sprite is a default grass one
-				layer_sprite_change(hills[i],sBGHills_sand);			// set it to the default sand one
-			} else {													// if its not the default
-				layer_sprite_change(hills[i],sBGHills1_sand);			// set it to the other sand one
-			}
-		}
-		for(i=0;i<array_length_1d(clouds);i++){							// loop through all the cloud sprites
-			if(layer_sprite_get_sprite(clouds[i]) == sCloud_grass){		// if the sprite is a default grass one
-				layer_sprite_change(clouds[i],sCloud_sand);				// set it to the default sand one
-			} else {													// if its not the default
-				layer_sprite_change(clouds[i],sCloud1_sand);			// set it to the other sand one
-			}
-		}
-		for(i=0;i<array_length_1d(stars);i++){							// loop through all the star sprites
-			layer_sprite_change(stars[i],sStar_sand);					// set them to the sand ones
-		}
-		break;
-}
+global.playerHealth = 5;												// heath of the player
+global.answeredQuestions = 0;											// keep track of answeredQuestions
+global.correctQuestions = 0;											// keep track of correctly answered questions
+global.incorrectQuestions = 0;											// keep track of correctly answered questions
+global.currentDialogue = 0;												// keep track of dialogue
 
 // on screen controls
 button_pressed = false;													// flag to see if any button is being pressed
