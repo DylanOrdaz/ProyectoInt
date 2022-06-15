@@ -1,7 +1,7 @@
 for(i=0;i<global.playerHealth;i++){												// loop through the number of hearts we have
 	draw_sprite(sHeart,0,50+(sprite_get_width(sHeart)*i),50);		// draw if we have them
 }
-draw_set_font(fTahoma24);											// set the font to draw text with
+draw_set_font(fTahoma242);											// set the font to draw text with
 draw_set_valign(fa_middle);											// use the middle to position vertically
 draw_set_halign(fa_right);											// use the right to position horizontally
 draw_set_colour(c_black);											// set the colour to draw text
