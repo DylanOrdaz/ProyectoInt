@@ -1,1 +1,1 @@
-room_goto(rSand2);
+room_goto_next();

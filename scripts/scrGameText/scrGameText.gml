@@ -2,15 +2,16 @@ function scrGameText(_text_id){
 	// Tutorial
 	gameText[0] = "¡Bienvenido/a a Las Mates de Matheo! Usa las flechas izquierda y derecha del teclado para moverte, arriba y abajo para subir y bajar escaleras, y la barra espaciadora para saltar y confirmar respuestas. Para  pasar al siguiente nivel contesta todas las preguntas del nivel.";
 	gameText[1] = "Con ayuda de este juego podrás aprender matemáticas de una manera divertida y dinámica.";
+	gameText[2] = "Si una pregunta se te hace muy difícil, puedes conseguir una pista, pero cuesta 4 estrellas, así que piénsalo bien."
 	
 	// Diálogos de genio nivel 1
-	gameText[20] = "Hola, soy el Genio de las Matemáticas. Mi trabajo es asegurarme de que te vaya bien."
-	gameText[21] = "Ahora debes enfrentarte a una serie de preguntas seguidas para demostrar que has aprendido."
-	gameText[22] = "Pero cuidado, si te equivocas perderás un corazón, si pierdes todos los corazones tu juego habrá terminado."
+	gameText[3] = "Hola, soy el Genio de las Matemáticas. Mi trabajo es asegurarme de que te vaya bien."
+	gameText[4] = "Ahora debes enfrentarte a una serie de preguntas seguidas para demostrar que has aprendido."
+	gameText[5] = "Pero cuidado, si te equivocas perderás un corazón, si pierdes todos los corazones tu juego habrá terminado."
 	
-	gameText[23] = "Muy bien, has logrado llegar hasta aquí... la prueba final"
-	gameText[24] = "¿Crees tener lo que se necesita para superarla?"
-	gameText[25] = "¡Entonces demuéstrame tu conocimiento!"
+	gameText[6] = "Muy bien, has logrado llegar hasta aquí... la prueba final"
+	gameText[7] = "¿Crees tener lo que se necesita para superarla?"
+	gameText[8] = "¡Entonces demuéstrame tu conocimiento!"
 	
 	// Banco de preguntas
 	gameText[50] = "Laura fundó una empresa y tiene que llevar ordenes para cuatro pedidos distintos. El primer pedido es de  502 productos, el segundo de 133, el tercero de 298 y el cuarto uno de 55.  ¿Cuántos productos debe elaborar Laura para enviar a sus clientes sin que le sobre ninguno?";
@@ -84,22 +85,22 @@ function scrGameText(_text_id){
 		case 2:
 			scr_text(gameText[2]);
 			break;
-		case 20:
-			scr_text(gameText[20]);
-		case 21:
-			scr_text(gameText[21]);
+		case 3:
+			scr_text(gameText[3]);
 			break;
-		case 22:
-			scr_text(gameText[22]);
+		case 4:
+			scr_text(gameText[4]);
+		case 5:
+			scr_text(gameText[5]);
 			break;
-		case 23:
-			scr_text(gameText[23]);
+		case 6:
+			scr_text(gameText[6]);
 			break;
-		case 24:
-			scr_text(gameText[24]);
+		case 7:
+			scr_text(gameText[7]);
 			break;
-		case 25:
-			scr_text(gameText[25]);
+		case 8:
+			scr_text(gameText[8]);
 			break;
 		case 50:
 			scr_text(gameText[50]);

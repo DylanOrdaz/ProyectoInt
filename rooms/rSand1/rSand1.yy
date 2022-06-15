@@ -48,6 +48,7 @@
 ],},"visible":false,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Collisions","tags":[],"resourceType":"GMRTileLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oGame","path":"objects/oGame/oGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":15.0,"scaleY":13.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_5B73FC63_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oQuestion","path":"objects/oQuestion/oQuestion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.68,"scaleY":0.68,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":384.0,"resourceVersion":"1.0","name":"inst_1E12AAB","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Control","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":448.00003,"y":256.0,"resourceVersion":"1.0","name":"inst_71645F7C_1","tags":[],"resourceType":"GMRInstance",},
@@ -183,6 +184,7 @@
     {"name":"inst_2243CF0D","path":"rooms/rSand1/rSand1.yy",},
     {"name":"inst_BB8D3B0","path":"rooms/rSand1/rSand1.yy",},
     {"name":"inst_386D7CB8","path":"rooms/rSand1/rSand1.yy",},
+    {"name":"inst_1E12AAB","path":"rooms/rSand1/rSand1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
