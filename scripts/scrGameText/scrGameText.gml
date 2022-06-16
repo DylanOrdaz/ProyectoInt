@@ -5,11 +5,11 @@ function scrGameText(_text_id){
 	gameText[2] = "Si una pregunta se te hace muy difícil, puedes conseguir una pista, pero cuesta 4 estrellas, así que piénsalo bien."
 	
 	// Diálogos de genio nivel 1
-	gameText[3] = "Hola, soy el Genio de las Matemáticas. Mi trabajo es asegurarme de que te vaya bien."
+	gameText[3] = "Hola, soy el Genio de las Matemáticas. Mi trabajo es asegurarme de que logres aprender."
 	gameText[4] = "Ahora debes enfrentarte a una serie de preguntas seguidas para demostrar que has aprendido."
 	gameText[5] = "Pero cuidado, si te equivocas perderás un corazón, si pierdes todos los corazones tu juego habrá terminado."
 	
-	gameText[6] = "Muy bien, has logrado llegar hasta aquí... la prueba final"
+	gameText[6] = "Muy bien, has logrado llegar hasta aquí... la prueba final."
 	gameText[7] = "¿Crees tener lo que se necesita para superarla?"
 	gameText[8] = "¡Entonces demuéstrame tu conocimiento!"
 	
@@ -37,43 +37,43 @@ function scrGameText(_text_id){
 	gameText[60] = "Hulk destruye 10 carros el lunes, 9 carros el martes, 12 carros el miércoles, 15 carros el jueves,  19 el viernes, 31 carros el sábado y 21 el domingo. ¿Cuántos carros destruyó en toda la semana?";
 	hintText[60] = "Te esta preguntando la cantidad de carros destruidos por lo que tienes que sumar los carros que hulk destruyó";
 	gameText[61] = "El Capitán América quiere atrapar a un villano pero primero rescatara un edificio de 135 personas y otro de 249 ¿Cuando el Capitán llega con el villano, a cuántas personas ha rescatado?";
-	hintText[61] = "";
+	hintText[61] = "Recuerda tus clases donde aprendiste a sumar, ambos numeros comparten el mismo proposito lo que dan a un total, es decir 249 + 135 = ?";
 	gameText[62] = "Ironman necesita tu ayuda, para volar necesita 2 litros de gasolina por minuto, ¿si el desea volar 10 minutos, cuántos litros de gasolina necesitaría?";
-	hintText[62] = "";
+	hintText[62] = "Recuerda tus clases de multiplicación, en este caso es una sencilla donde necesitas multiplicar 2 x 10";
 	gameText[63] = "Blancanieves está en una fiesta y quiere bailar, si son las 8:00 pm y ella tiene que salir de la fiesta a las 9:00 pm, ¿Cuánto tiempo podrá bailar?";
-	hintText[63] = "";
+	hintText[63] = "Ella tiene que salir a las 9:00 entonces puede bailar felizmente desde las 8:00 pm hasta las 9:00 pm, lo cual es una resta.";
 	gameText[64] = "Cenicienta se quiere comprar un nuevo vestido el cual cuesta $6,999.00, si ella tiene 5,000.00. ¿Cuánto le hace falta?";
-	hintText[64] = "";
+	hintText[64] = "Recuerda tomar el numero más alto y a ese restarle el número más pequeño, ese te dara el resultado correcto";
 	gameText[65] = "Thor el dios del trueno, mando arreglar su martillo, si le cobraron $10,000, y el solo llevaba $1,000. ¿Cuánto le hace falta?";
-	hintText[65] = "";
+	hintText[65] = "Recuerda tomar el numero más alto y a ese restarle el número más pequeño, ese te dara el resultado correcto";
 	gameText[66] = "La capa de Doctor Strange se dañó. El sastre le cobró $1,000, por arreglarsela, si Doctor Strange llevaba solamente $250. ¿Cuánto le hace falta?";
-	hintText[66] = "";
+	hintText[66] = "Recuerda tomar el numero más alto y a ese restarle el número más pequeño, ese te dara el resultado correcto";
 	gameText[67] = "Capitán América quiere regresar la gema del infinito del tiempo a su época al año 2010 y actualmente está en el año 2022 ¿Cuántos años al pasado necesita viajar?";
-	hintText[67] = "";
+	hintText[67] = "Esto es una resta simple por lo que solamente tienes que restar el número más alto con el más pequeño";
 	gameText[68] = "Un arquero necesita comprar 20 flechas. Si cada flecha 9.9. ¿Cuánto deberá de pagar?";
-	hintText[68] = "";
+	hintText[68] = "Recuerda tus clases de multiplicación, el número que buscamos multiplicar es 9.9, si 9.9x1 = 9.9, ¿Cuanto sera 9.9x20?";
 	gameText[69] = "Para un entrenamiento de fútbol, se deben de comprar 30 balones, cada balón cuesta $20. ¿Cuánto será el total?";
-	hintText[69] = "";
+	hintText[69] = "Esto es una multiplicación, entonces 1 balon = 20, entonces 20x30 es igual a la respuesta.";
 	gameText[70] = "El pato Donald tiene 655 monedas y quiere regalarlo equitativamente a sus 5 amigos. ¿Cuántas monedas le tocará a cada uno?";
-	hintText[70] = "";
+	hintText[70] = "Recuerda tus clases de división, ¿Cuantas veces los 5 amigos recibiran monedas de las 655?";
 	gameText[71] = "Peter Parker leyó un libro de 749 páginas en 7 días. Sí leyó todos los días la misma cantidad de páginas. ¿Cuántas páginas leyó cada día?";
-	hintText[71] = "";
+	hintText[71] = "Recuerda tus clases de división, ¿Cuantas veces entra el número 7 en las 749 páginas";
 	gameText[72] = "A Cristiano Ronaldo le pagán $24,000,000 al año. ¿Cuánto dinero recibirá al mes?";
-	hintText[72] = "";
+	hintText[72] = "Recuerda que un año tiene 12 meses entonces tendras que dividir el número 24,000,000 entre 12 y eso te dara la respuesta";
 	gameText[73] = "Jorge fue a comprar dulces, las gomitas de mango cuesta $120 el kilo, si el compro 200 g ¿Cuánto pagó al final?";
-	hintText[73] = "";
+	hintText[73] = "Recuerda que 1 kilo son 1000 gramos, entonces 200 gramos es una quinta parte de un kilo por lo que tendrías obtener la quinta parte de $120.";
 	gameText[74] = "Pablo fue al supermercado a comprar jamón, el kilo de jamón cuesta $400, si compro ¼ de kilo. ¿Cuánto pagó?";
-	hintText[74] = "";
+	hintText[74] = "Recuerda que 1 kg cuesta $400, para obtener la cuarta parte tendras que dividir 400/4";
 	gameText[75] = "Messi por cada gol que mete, le pagan 1200, si en una semana anotó 6 goles. ¿Cuánto le van a pagar?";
-	hintText[75] = "";
+	hintText[75] = "Por cada gol le pagan 1200, es decir 1200x1 = 1200, si hizo 6 goles sería 1200x6 = resultado";
 	gameText[76] = "Superman al estar expuesto a 100 g kryptonita tarda aproximadamente 30 minutos en recuperarse, ¿Cuánto tiempo tardará en recuperarse después de haberse alejado de una piedra de 1 kg de kryptonita? ";
-	hintText[76] = "";
+	hintText[76] = "Toma en cuenta qué 1 kilo es 10 veces más grande que 100 g, por lo que tendrías que multiplicar 30x10 para obtener los minutos y luego convertirlos a horas diviendo entre 6";
 	gameText[77] = "La población del mundo es de 7,000 millones de habitantes, si Thanos al chasquear los dedos eliminó a la mitad de la población. ¿Cuántos habitantes quedan?";
-	hintText[77] = "";
+	hintText[77] = "Es una división sencilla solamente tendrías que tomar el número y dividirlo entre 2 para obtener el resultado";
 	gameText[78] = "Burro quería dividir a la mitad el terreno de Shrek, por haberlo ayudado a salvar a la princesa. Si shrek tiene un terreno de 4264 m^2. ¿Cuántos metros le van a tocar a Burro?";
-	hintText[78] = "";
+	hintText[78] = "Es una división sencilla solamente tendrías que tomar el número y dividirlo entre 2 para obtener el resultado";
 	gameText[79] = "Ultrón está atacando la ciudad y lleva con él otros 55 androides, si 5 vengadores llegan al rescate. ¿Cuántos androides necesita vencer cada vengador para que todos hayan trabajado lo mismo?";
-	hintText[79] = "";
+	hintText[79] = "Tienes que ver cuantas veces entran 5 en 55, entonces es una división 55/5 = resultado";
 	
 	switch(_text_id) {
 		case 0:
@@ -90,6 +90,7 @@ function scrGameText(_text_id){
 			break;
 		case 4:
 			scr_text(gameText[4]);
+			break;
 		case 5:
 			scr_text(gameText[5]);
 			break;
@@ -101,6 +102,7 @@ function scrGameText(_text_id){
 			break;
 		case 8:
 			scr_text(gameText[8]);
+			global.currentDialogue = 71;
 			break;
 		case 50:
 			scr_text(gameText[50]);
@@ -110,14 +112,17 @@ function scrGameText(_text_id){
 			break;
 		case "_1-c":
 			scr_text("¡Correcto!");
-			global.stars = global.stars + 2;
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_1-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_1-p":
 			if(global.stars >= 5) {
@@ -140,14 +145,17 @@ function scrGameText(_text_id){
 			break;
 		case "_2-c":
 			scr_text("¡Correcto!");
-			global.stars = global.stars + 2;
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_2-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_2-p":
 			if(global.stars >= 5) {
@@ -170,14 +178,17 @@ function scrGameText(_text_id){
 			break;
 		case "_3-c":
 			scr_text("¡Correcto!");
-			global.stars = global.stars + 2;
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_3-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_3-p":
 			if(global.stars >= 5) {
@@ -200,14 +211,17 @@ function scrGameText(_text_id){
 			break;
 		case "_4-c":
 			scr_text("¡Correcto!");
-			global.stars = global.stars + 2;
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_4-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break
 		case "_4-p":
 			if(global.stars >= 5) {
@@ -230,14 +244,17 @@ function scrGameText(_text_id){
 			break;
 		case "_5-c":
 			scr_text("¡Correcto!");
-			global.stars = global.stars + 2;
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_5-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_5-p":
 			if(global.stars >= 5) {
@@ -260,13 +277,17 @@ function scrGameText(_text_id){
 			break;
 		case "_6-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_6-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_6-p":
 			if(global.stars >= 5) {
@@ -289,13 +310,17 @@ function scrGameText(_text_id){
 			break;
 		case "_7-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_7-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_7-p":
 			if(global.stars >= 5) {
@@ -319,13 +344,18 @@ function scrGameText(_text_id){
 			break;
 		case "_8-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_8-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_8-p":
 			if(global.stars >= 5) {
@@ -348,13 +378,18 @@ function scrGameText(_text_id){
 			break;
 		case "_9-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_9-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_9-p":
 			if(global.stars >= 5) {
@@ -377,13 +412,18 @@ function scrGameText(_text_id){
 			break;
 		case "_10-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_10-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_10-p":
 			if(global.stars >= 5) {
@@ -406,13 +446,18 @@ function scrGameText(_text_id){
 			break;
 		case "_11-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_11-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_11-p":
 			if(global.stars >= 5) {
@@ -434,14 +479,19 @@ function scrGameText(_text_id){
 			scr_option("Pista", "_12-p");
 			break;
 		case "_12-c":
-			scr_text("¡Correcto!");
+			scr_text("¡Correcto! Puedes avanzar al siguiente nivel.");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_12-i":
-			scr_text("¡Incorrecto!");
+			scr_text("¡Incorrecto! Puedes avanzar al siguiente nivel, pero ten cuidado");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_12-p":
 			if(global.stars >= 5) {
@@ -464,13 +514,17 @@ function scrGameText(_text_id){
 			break;
 		case "_13-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_13-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_13-p":
 			if(global.stars >= 5) {
@@ -493,13 +547,16 @@ function scrGameText(_text_id){
 			break;
 		case "_14-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_14-i":
 			scr_text("¡Incorrecto!");
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_14-p":
 			if(global.stars >= 5) {
@@ -522,13 +579,17 @@ function scrGameText(_text_id){
 			break;
 		case "_15-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_15-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_15-p":
 			if(global.stars >= 5) {
@@ -551,13 +612,17 @@ function scrGameText(_text_id){
 			break;
 		case "_16-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_16-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_16-p":
 			if(global.stars >= 5) {
@@ -580,13 +645,17 @@ function scrGameText(_text_id){
 			break;
 		case "_17-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_17-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_17-p":
 			if(global.stars >= 5) {
@@ -609,13 +678,17 @@ function scrGameText(_text_id){
 			break;
 		case "_18-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_18-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_18-p":
 			if(global.stars >= 5) {
@@ -638,13 +711,17 @@ function scrGameText(_text_id){
 			break;
 		case "_19-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_19-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_19-p":
 			if(global.stars >= 5) {
@@ -667,13 +744,17 @@ function scrGameText(_text_id){
 			break;
 		case "_20-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_20-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_20-p":
 			if(global.stars >= 5) {
@@ -696,13 +777,17 @@ function scrGameText(_text_id){
 			break;
 		case "_21-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_21-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_21-p":
 			if(global.stars >= 5) {
@@ -725,13 +810,18 @@ function scrGameText(_text_id){
 			break;
 		case "_22-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_22-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_22-p":
 			if(global.stars >= 5) {
@@ -754,13 +844,18 @@ function scrGameText(_text_id){
 			break;
 		case "_23-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_23-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_23-p":
 			if(global.stars >= 5) {
@@ -783,13 +878,18 @@ function scrGameText(_text_id){
 			break;
 		case "_24-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_24-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_24-p":
 			if(global.stars >= 5) {
@@ -812,13 +912,18 @@ function scrGameText(_text_id){
 			break;
 		case "_25-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_25-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_25-p":
 			if(global.stars >= 5) {
@@ -841,13 +946,18 @@ function scrGameText(_text_id){
 			break;
 		case "_26-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_26-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_26-p":
 			if(global.stars >= 5) {
@@ -870,13 +980,18 @@ function scrGameText(_text_id){
 			break;
 		case "_27-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_27-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_27-p":
 			if(global.stars >= 5) {
@@ -899,13 +1014,18 @@ function scrGameText(_text_id){
 			break;
 		case "_28-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_28-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_28-p":
 			if(global.stars >= 5) {
@@ -928,13 +1048,18 @@ function scrGameText(_text_id){
 			break;
 		case "_29-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_29-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_29-p":
 			if(global.stars >= 5) {
@@ -957,13 +1082,18 @@ function scrGameText(_text_id){
 			break;
 		case "_30-c":
 			scr_text("¡Correcto!");
+			audio_play_sound(snd_correct, 10, false);
 			global.answeredQuestions++;
 			global.correctQuestions++;
+			global.currentDialogue++;
 			break;
 		case "_30-i":
 			scr_text("¡Incorrecto!");
+			audio_play_sound(snd_incorrect, 10, false);
 			global.answeredQuestions++;
 			global.incorrectQuestions++;
+			global.currentDialogue++;
+			global.playerHealth--;
 			break;
 		case "_30-p":
 			if(global.stars >= 5) {
@@ -977,16 +1107,5 @@ function scrGameText(_text_id){
 				scr_option("11 androides", "_30-c");
 			}
 			break;
-			
-		case 100067:
-			scr_text(gameText[100067]);
-			break;
-		case 100068:
-			scr_text(gameText[100068]);
-			break;
-		case 100069:
-			scr_text(gameText[100069]);
-			break;
-		
 	}
 }

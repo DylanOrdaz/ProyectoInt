@@ -33,7 +33,6 @@ if accept_key {
 		if(room = rGenieBattle1Intro || room = rGenieBattle2Intro) {
 			show_debug_message("Entre a accept_key");
 			global.currentDialogue++;
-			show_debug_message(global.currentDialogue);
 		}
 		// next page
 		if(page < page_number - 1) {

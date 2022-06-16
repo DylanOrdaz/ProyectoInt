@@ -17,7 +17,6 @@ grav_jump = -18;			// jump gravity
 jump=false;					// flag if the player is jumping
 
 
-
 // camera that follows the player
 view_enabled = true;
 view_visible[0] = true;

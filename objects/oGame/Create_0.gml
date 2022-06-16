@@ -1,4 +1,8 @@
 /// Init
+if(room = rSand3) {
+	audio_stop_sound(msc_bossBattle);
+	audio_play_sound(msc_level, 10, true);
+}
 tilesize = 64;															// size of tiles
 map = layer_tilemap_get_id("Collisions");								// this will be the layer we use for collisions								// all the hill sprites
 stars = layer_get_all_elements("Stars");								// all the star sprites
@@ -6,6 +10,9 @@ clouds = layer_get_all_elements("Clouds");								// all the cloud sprites
 global.stars = 0;														// stars collected
 global.playerHealth = 4;												// heath of the player
 global.answeredQuestions = 0;											// keep track of answeredQuestions
+if(room = rSand3) {
+	global.answeredQuestions = 11;
+}
 global.correctQuestions = 0;											// keep track of correctly answered questions
 global.incorrectQuestions = 0;											// keep track of correctly answered questions
 global.currentDialogue = 0;												// keep track of dialogue

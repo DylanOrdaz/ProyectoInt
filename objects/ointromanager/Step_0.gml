@@ -14,32 +14,34 @@ switch(global.currentDialogue) {
 		break;
 }
 
-if global.currentDialogue >= 6 {
-	room_goto(rGenieBattle1);
+show_debug_message("Current dialogue:");
+show_debug_message(global.currentDialogue);
+
+if(global.currentDialogue = 6 && global.answeredQuestions < 17) {
+	show_debug_message("Entre a donde te transporta a la siguiente room");
+	room_goto_next();
 }
 
-switch(global.currentDialogue) {
-	case 6:
-		if(displayed = false) {
+if(global.answeredQuestions >= 17) {
+	switch(global.currentDialogue) {
+		case 7:
+			if(displayed = false) {
 			scrTextboxFunctions(create_textbox(global.currentDialogue));
 			displayed = true;
-		}
-		break;
-	case 7:
-		if(displayed = true) {
+			}
+			break;
+		case 8:
+			if(displayed = true) {
 			scrTextboxFunctions(create_textbox(global.currentDialogue));
 			displayed = false;
-		}
-		break;
-	case 8:
-		if(displayed = false) {
-			scrTextboxFunctions(create_textbox(global.currentDialogue));
-			displayed = true;
-		}
-		break;
+			}
+			break;
+		
+	}
 }
 
-if global.currentDialogue >= 9 {
+
+if(global.currentDialogue >= 9) {
 	room_goto(rGenieBattle2);
 }
 
